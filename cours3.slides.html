@@ -7543,7 +7543,7 @@ main {
 <li>sémantique : toponymes, anthroponymes, dates, balisage des types de discours, désambiguïsation des références textuelles</li>
 <li>analyique : correspondance des parties du texte à une grille d’analyse (taxonomie, thésaurus, etc.)</li>
 </ul>
-<p>🌟 … et un large de spectre de niveau d'encodage <!-- mal dit --></p>
+<p>🌟 … et permet d'encoder plus ou moins "proche" du texte</p>
 </div>
 </div>
 </div>
@@ -7650,7 +7650,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Markdown-:-exercice">Markdown : exercice<a class="anchor-link" href="#Markdown-:-exercice">¶</a></h2><p>➡️ TEXTE : pont_mirabeau.txt | IMAGE : pont_mirabeau.png</p>
-<p>➡️ Éditeurs en ligne : <a href="">Dillinger</a> ou <a href="">HedgeDoc</a></p>
+<p>➡️ Éditeurs en ligne : <a href="https://dillinger.io/">Dillinger</a> ou <a href="https://demo.hedgedoc.org/">HedgeDoc</a></p>
 <p>Faire un encodage en Markdown du poème :</p>
 <ul>
 <li>mettre le titre en niveau 1</li>
@@ -7701,7 +7701,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="JSON-(JavaScript-Object-Notation)">JSON (JavaScript Object Notation)<a class="anchor-link" href="#JSON-(JavaScript-Object-Notation)">¶</a></h2><p>{ } une structure similaire aux aux dictionnaires en Python</p>
+<h2 id="JSON-(JavaScript-Object-Notation)">JSON (<em>JavaScript Object Notation</em>)<a class="anchor-link" href="#JSON-(JavaScript-Object-Notation)">¶</a></h2><p>{ } une structure similaire aux aux dictionnaires en Python</p>
 <p>{ } un objet <code>{}</code> vs. une liste <code>[]</code></p>
 <p>{ } le séparateur séparateur est la virgule</p>
 <p>{ } chaque <code>clé</code> est associée à une <code>valeur</code> séparés par une virgule</p>
@@ -7718,6 +7718,98 @@ main {
 </div>
 </div>
 </div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=793ee264">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="exercice-:-ta-biblioth%C3%A8que-personnelle-en-JSON">exercice : ta bibliothèque personnelle en JSON<a class="anchor-link" href="#exercice-:-ta-biblioth%C3%A8que-personnelle-en-JSON">¶</a></h2><p>Créer un fichier JSON représentant ta collection de livres avec différents niveaux de complexité.</p>
+<p>🔧 <a href="https://www.babelio.com/liste/10466/Les-100-romans-les-plus-lus">Des exemples de livre ici.</a></p>
+<p>🔧 <a href="https://jsoneditoronline.org/">Un éditeur/validateur de JSON en ligne.</a></p>
+<p>✍️ exercice 1 : un livre simple</p>
+<p>Créer un objet JSON représentant un seul livre avec ces informations :</p>
+<ul>
+<li>Titre</li>
+<li>Auteur</li>
+<li>Année de publication</li>
+<li>Nombre de pages</li>
+<li>Lu ou pas (booléen)</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=450fed3c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Besoin d'un indice ?</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">"titre"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"auteur"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
+<span class="w">  </span><span class="err">...</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=afa266bf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 2 : plusieurs livres</p>
+<p>Transformer ton JSON pour avoir une liste de 3 livres minimum.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=abd7f942">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 3 : enrichir les données</p>
+<p>Pour chaque livre, ajouter :</p>
+<ul>
+<li>une liste de catégories/genres</li>
+<li>un objet "notes" contenant<ul>
+<li>une note sur 5</li>
+<li>un commentaire personnel (peut être null si pas de commentaire)</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9043bea5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 4 : structure complète</p>
+<p>Englober la liste de livres dans un objet principal qui contient :</p>
+<ul>
+<li>un champ "proprietaire" (ton nom)</li>
+<li>un champ "livres" (ta liste)</li>
+<li>un champ "statistiques" avec :<ul>
+<li>nombre total de livres</li>
+<li>nombre de livres lus</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b2f08dc0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7726,12 +7818,175 @@ main {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="XML----exemple-du-protocole-OAI-PMH-(Open-Archives-Initiative---Protocol-for-Metadata-Harvesting)">XML -- exemple du protocole OAI-PMH (<em>Open Archives Initiative - Protocol for Metadata Harvesting</em>)<a class="anchor-link" href="#XML----exemple-du-protocole-OAI-PMH-(Open-Archives-Initiative---Protocol-for-Metadata-Harvesting)">¶</a></h2><p>⛃ échanges de données entre différents systèmes informatiques</p>
 <p>⛃ aggréger les catalogue des bibliothèques</p>
-<p>exemple : <a href="https://api.archives-ouvertes.fr/oai/hal/?verb=ListRecords&amp;metadataPrefix=oai_dc&amp;set=collection:SORBONNE-UNIVERSITE">collection de la Sorbonne sur HAL</a></p>
+<p>exemple : <a href="https://oaipmh.arxiv.org/oai?verb=ListRecords&amp;metadataPrefix=oai_dc">arXiv</a></p>
 <p>⛃ une API REST : vous tapez une URL dans votre navigateur et un serveur vous renvoie des données (en XML, en l'occurence)</p>
 <p><code>[URL_BASE] ? verb=[VERBE] &amp; [PARAMETRE1]=[VALEUR1] &amp; [PARAMETRE2]=[VALEUR2]</code></p>
 <figure style="display: flex; align-items: center; justify-content: center;">
 <img alt="logo" src="media/OAIPMH.png" style="width: 300px; height: auto;"/>
 </figure>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=38a53e06">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="exercice-:-jouer-avec-l'API-OAI-PMH-de-ArXiv">exercice : jouer avec l'API OAI-PMH de ArXiv<a class="anchor-link" href="#exercice-:-jouer-avec-l'API-OAI-PMH-de-ArXiv">¶</a></h2><p>✍️ exercice 1 : lister les formats de métadonnées de l'entrepôt OAI-PMH d'ArXiv</p>
+<p><a href="https://oaipmh.arxiv.org/oai?verb=ListMetadataFormats">https://oaipmh.arxiv.org/oai?verb=ListMetadataFormats</a></p>
+<p>❓ combien de formats de métadonnées sont disponibles ?</p>
+<p>❓ listez-les avec leur préfixe (<code>&lt;metadataPrefix&gt;</code>)</p>
+<p><code>format de métadonnées</code> = les règles (des balises et des règles pour les utiliser) pour échanger des métadonnées de manière uniforme</p>
+<blockquote>
+<p>L’objectif du Dublin Core est de fournir un socle commun d’éléments descriptifs pour améliorer le signalement et la recherche de ressources au-delà des diverses communautés et des nombreux formats descriptifs propres à chaque spécialité, tout en restant suffisamment structuré. (<a href="https://www.bnf.fr/">https://www.bnf.fr/</a>)</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=70ca37b0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 2 : lister les collection de l'entrepôt OAI-PMH d'ArXiv</p>
+<p><a href="https://oaipmh.arxiv.org/oai?verb=ListSets">https://oaipmh.arxiv.org/oai?verb=ListSets</a></p>
+<ul>
+<li>expliquer / décomposer l'URL et identifier la requête à l'API</li>
+<li>repérer les identifiants des collections ? (ex: cs, math, physics)</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=656be057">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Indice : chaque <code>&lt;setSpec&gt;</code> contient l'identifiant à utiliser</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b394008f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 3 : consulter les items d'une certaine collection</p>
+<ul>
+<li>choisir une collection</li>
+<li>changer le verbe de <code>ListSets</code> pour <code>ListRecords</code></li>
+<li>ajouter le paramètre metadataPrefix=oai_dc</li>
+<li>ajouter le paramètre set=<code>[identifiant de la collection, par exemple cs pour "Computer Science"]</code></li>
+</ul>
+<hr/>
+<p>🃏 cheatsheet</p>
+<p><code>https://oaipmh.arxiv.org/oai?verb=[VERBE]&amp;metadataPrefix=[FORMAT]&amp;set=[COLLECTION]&amp;from=[DATE]</code></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ff0af0e0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 4 : ajouter un filtre pour consulter les items de cette collection depuis décembre 2024</p>
+<hr/>
+<p>🃏 cheatsheet</p>
+<p><code>https://oaipmh.arxiv.org/oai?verb=[VERBE]&amp;metadataPrefix=[FORMAT]&amp;set=[COLLECTION]&amp;from=[DATE]</code></p>
+<p>⚠️ format de la date : AAAA-MM-JJ</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=38ad5485">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 5 : récupérer tous les articles de mathématiques depuis janvier 2025</p>
+<hr/>
+<p>🃏 cheatsheet</p>
+<ul>
+<li>lister les collections</li>
+<li>chercher l'identifiant à utiliser</li>
+<li>choisir le bon verbe pour</li>
+<li><a href="https://oaipmh.arxiv.org/oai?verb=%5BVERBE%5D&amp;metadataPrefix=%5BFORMAT%5D&amp;set=%5BCOLLECTION%5D&amp;from=%5BDATE">https://oaipmh.arxiv.org/oai?verb=[VERBE]&amp;metadataPrefix=[FORMAT]&amp;set=[COLLECTION]&amp;from=[DATE</a>]</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a3a859be">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Bonus :</p>
+<p><a href="https://oaipmh.arxiv.org/oai?verb=ListRecords&amp;metadataPrefix=oai_dc&amp;set=math&amp;from=2024-12-01">https://oaipmh.arxiv.org/oai?verb=ListRecords&amp;metadataPrefix=oai_dc&amp;set=math&amp;from=2024-12-01</a></p>
+<p>❓ <em>j'ai accès à quoi ?</em></p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e52572b4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 6 : récupérer les métadonnées d'un item précis</p>
+<p>Trouve ton identifiant :</p>
+<p>🗂️ sortir la liste de tous les items avec leurs identifiants en changeant le verbe</p>
+<p>🗝️ indice : ListIdentifiers</p>
+<p>🗂️ sortir la liste de tous les items sur une plage de date</p>
+<p>🗂️ sortir la liste de tous les items par catégorie</p>
+<p>🗂️ faire une combinaison : la liste de tous les articles en maths et depuis janvier 2024</p>
+<p>🗂️ choisir un identifiant</p>
+<p>🗂️ construire une url pour accéder aux métadonnées de cet enregitrement</p>
+<hr/>
+<p>🃏 cheatsheet</p>
+<p><a href="https://oaipmh.arxiv.org/oai?verb=GetRecord&amp;identifier=IDENTIFIER&amp;metadataPrefix=FORMAT">https://oaipmh.arxiv.org/oai?verb=GetRecord&amp;identifier=IDENTIFIER&amp;metadataPrefix=FORMAT</a></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a0dffebd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>❓ quel est le titre de cet article ?</p>
+<p>❓ qui sont les auteurs ?</p>
+<p>❓ à quelle date a-t-il été publié ?</p>
+<p>❓ quel est le résumé (description) de l'article ?</p>
+<p>✍️ exercice 6 : récupérer le même article en format arXiv</p>
+<p>❓ quelles informations supplémentaires trouvez-vous dans ce format par rapport au Dublin Core ?</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6df1b16f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>📖 Ressources utiles</p>
+<p>Documentation OAI-PMH : <a href="https://www.openarchives.org/OAI/openarchivesprotocol.html">https://www.openarchives.org/OAI/openarchivesprotocol.html</a></p>
+<p>Documentation arXiv : <a href="https://info.arxiv.org/help/oa/index.html">https://info.arxiv.org/help/oa/index.html</a></p>
 </div>
 </div>
 </div>
@@ -7742,10 +7997,10 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="YAML">YAML<a class="anchor-link" href="#YAML">¶</a></h2><p><em>Yet another markup language</em> (1.0) ou <em>Yaml ain’t markup language</em> (depuis 1.1)</p>
-<p>se distingue par sa lisibilité</p>
-<p>repose sur l'indentation (attention pas de tabulation !)</p>
-<p>sert à créer des fichiers de configuration</p>
+<h2 id="YAML">YAML<a class="anchor-link" href="#YAML">¶</a></h2><p>⚙️ <em>Yet another markup language</em> (1.0) ou <em>Yaml ain’t markup language</em> (depuis 1.1)</p>
+<p>⚙️ se distingue par sa lisibilité</p>
+<p>⚙️ repose sur l'indentation (attention pas de tabulation !)</p>
+<p>⚙️ sert à créer des fichiers de configuration</p>
 <pre><code>---
 title: "Les _mémoires_ de Fairfax"
 date: "2026-02-03"
@@ -7758,7 +8013,6 @@ controlledKeywords:
     uriRameau: http://data.bnf.fr/ark:/12148/cb13318572g
 ---
 </code></pre>
-<!-- développer et mettre un exemple -->
 </div>
 </div>
 </div>
@@ -7912,22 +8166,170 @@ Genette, Gérard. <em>Figures III</em>. Paris: Éditions du Seuil, 1972.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="La-tambouille-pandoc">La tambouille pandoc<a class="anchor-link" href="#La-tambouille-pandoc">¶</a></h1>
+<h1 id="Cha%C3%AEne-de-transformation">Chaîne de transformation<a class="anchor-link" href="#Cha%C3%AEne-de-transformation">¶</a></h1>
 </div>
 </div>
 </div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3db656a6">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=40907e37">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Rappel-:-structurer">Rappel : structurer<a class="anchor-link" href="#Rappel-:-structurer">¶</a></h2><p>C'est donner du sens au texte : via un balisage plus ou moins léger, on attribuer à chaque bloc de texte une valeur sémantique particulière.</p>
+<h2 id="Rappel-:-structurer">Rappel : structurer<a class="anchor-link" href="#Rappel-:-structurer">¶</a></h2><p>💡 donner du sens au texte</p>
+<p>💡 séparation du fond et de la forme</p>
+<p>💡 le balisage choisit dépend de ce qu'on veut faire avec le document</p>
+<pre><code>📝 MARKDOWN         |         🎨 HTML             |        🗂️ XML
+(écriture)          |        (affichage)          |       (données)
+                    |                             |
+# Titre             |        &lt;h1&gt;Titre&lt;/h1&gt;       |     &lt;titre niveau="1"&gt;
+[Maupassant]{.pers} |        &lt;spans class="pers"&gt; |     &lt;persName&gt;Maupassant&lt;/persName&gt;
+                    |                             |       
+Humain d'abord      |        Navigateur web       |     Machine-readable
+Facile à écrire     |        Style CSS            |     Facile à traiter
+</code></pre>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a387f94f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Conversion">Conversion<a class="anchor-link" href="#Conversion">¶</a></h2><p>👉 un document structuré peut être lu par la machine, qui peut reconstruire cette struture dans un autre langage de balisage</p>
+<pre><code>.md  →  [Parser]  →  [AST]  →  [Generator]  →  .html
+ 📄        🔧         🌳          ⚡            &lt;/&gt;
+</code></pre>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=958b4e74">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Pandoc">Pandoc<a class="anchor-link" href="#Pandoc">¶</a></h2><ul>
+<li>logiciel de conversion de fichiers texte</li>
+<li>libre, sous licence GPL → une communuaté se crée autour de l'outils et des pratiques</li>
+<li>il est développé en Haskel à l'initiative d'un professeur de philosophie John MacFarlane</li>
+<li>utilisé en ligne de commande (on est capable)</li>
+<li>commande de base : <code>pandoc [options] fichier.entree</code> (produit du HTML par défaut)</li>
+<li>les paramètres de la conversion : le texte balisé, les métadonnées sérialisées, et la bibliographie structurée</li>
+</ul>
+<pre><code>                        ┌──→  🎨 HTML
+                        │     (présentation web)
+                        │
+📝 Markdown        ─────┼──→  🗂️ XML
+  (source, lisible,     │     (structuré, sémantique, 
+  portable)             │      interrogeable, échangeable)
+                        │
+                        └──→  📄 PDF ou autres...
+</code></pre>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=63d54aee">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Installation">Installation<a class="anchor-link" href="#Installation">¶</a></h2><p>🔧 <strong>installer pandoc</strong> <a href="https://docs.zettlr.com/fr/installing-pandoc/">suivre les instructions de la doc</a>.</p>
+<p>🔧 <strong>ouvrir un terminal dans vscode : terminal &gt; new terminal</strong></p>
+<p><img alt="terminal" src="media/terminal.png"/></p>
+<p>🔧 <strong>travailler dans un dossier dédié</strong></p>
+<p><code>mkdir test-pandoc</code> (<em>make directory</em>)</p>
+<p><code>cd test-pandoc</code> (<em>change directory</em>)</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=084f0289">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="exercice-1">exercice 1<a class="anchor-link" href="#exercice-1">¶</a></h2><p>✍️  créer un document Markdown avec des niveaux de titre, une liste, une citation longue et de l’emphase (italique et gras)</p>
+<p>✍️  lancer la commande <code>pandoc mon-fichier.md</code></p>
+<p>Que remarquez-vous ? 🧐</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=67cbe456">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Il faut l'option <code>-o</code> pour créer un fichier</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5e4d7266">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="exercice-2-:-d%C3%A9couvrir-les-options">exercice 2 : découvrir les options<a class="anchor-link" href="#exercice-2-:-d%C3%A9couvrir-les-options">¶</a></h2><p>✍️  lancer une commande plus verbeuse : <code>pandoc -f markdown -t html mon-fichier.md -o mon-fichier.html</code></p>
+<p>Que remarquez-vous ? 🧐</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b88f5b3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>On n'a que le texte, or on a besoin de métadonnées.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=42fdac6b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="exercice-3-:-ajouter-des-m%C3%A9tadonn%C3%A9es">exercice 3 : ajouter des métadonnées<a class="anchor-link" href="#exercice-3-:-ajouter-des-m%C3%A9tadonn%C3%A9es">¶</a></h2><p>✍️ ajouter un entête en YAML, en haut du document, signalé par trois tirets :</p>
+<pre><code>---
+title: Le titre de mon document
+author: Mon Nom
+---
+</code></pre>
+<p>⚠️ attention au YAML</p>
+<ul>
+<li>pas de tabulation pour l'indentation, uniquement des espaces</li>
+<li>pour chaque champ il faut : une clé, deux-points bien collés, valeur du champ</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fa08b2f5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ transformer en html : <code>pandoc -f markdown -t html mon-fichier.md -o mon-fichier.html</code></p>
+<p>✍️ transformer en .docx : <code>pandoc -f markdown -t docx mon-fichier.md -o mon-fichier.docx</code></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0eb8785f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7938,13 +8340,86 @@ Genette, Gérard. <em>Figures III</em>. Paris: Éditions du Seuil, 1972.</p>
 </div>
 </div>
 </div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b3fa5c5b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Histoire-et-principes">Histoire et principes<a class="anchor-link" href="#Histoire-et-principes">¶</a></h2><p>🇱 1978 -- Donald Knuth initiative du langage TEX (/tɛx/ : tau, epsilon, chi (τεχ)) pour éditer son œuvre majeure <em>The Art of Computer Programming</em></p>
+<p>🇱 un langage et un système de composition de documents, grande précision typographique</p>
+<p>🇱 logiciel libre et gratuit</p>
+<p>🇱 1984 -- LaTeX : simplification par Leslie Lamport</p>
+<p>🇱 utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques</p>
+<p>🇱 pas des balises sémantiques mais des commandes \chapter{Titre de chapitre}</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=57e559af">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Syntaxe">Syntaxe<a class="anchor-link" href="#Syntaxe">¶</a></h2><p>Exemple minimal :</p>
+<pre><code>\documentclass{book}
+%% Préambule %%
+
+\begin{document}
+%% Corps du document %%
+
+\chapter{Titre de chapitre}
+Certaines \textbf{découvertes} \underline{scientifiques}
+sont le produit du \textbf{\textit{hasard}}.
+
+\end{document}
+</code></pre>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=09db92a4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="R%C3%A9sistance-aux-traitements-de-texte-?">Résistance aux traitements de texte ?<a class="anchor-link" href="#R%C3%A9sistance-aux-traitements-de-texte-?">¶</a></h2><p>Rappel : nos écrits sont orientés dans un cadre techno-social lié à nos environnement d'écriture.</p>
+<p>Derrière TeX : Une vision du monde opposée à l'idéologie néolibérale du marché ?</p>
+<blockquote>
+<p>TeX resulted in a worldwide community of users, developers, and user groups evolved, largely  disconnected from the more conventional desktop publishing world driven by commercial concerns  of publishers and desktop publishing system vendors (so very different than Knuth’s concerns for TeX). Beeton, Berry, and Walden 2018 Beeton, Barbara, Karl Berry, and David Walden. “TEX: A Branch in Desktop Publishing Evolution, Part 1.” IEEE Annals of the History of Computing vol. 40.3 (2018): 78–93.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=53ce929d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Quelques-ressources-pour-aller-plus-loin">Quelques ressources pour aller plus loin<a class="anchor-link" href="#Quelques-ressources-pour-aller-plus-loin">¶</a></h2><ul>
+<li><a href="https://zestedesavoir.com/tutoriels/826/introduction-a-latex/">Séries de leçon sur LaTeX (Zeste de Savoir)</a></li>
+<li><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Tutoriel d'Overleaf pour LaTeX</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6e891e0b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Bibliographie">Bibliographie<a class="anchor-link" href="#Bibliographie">¶</a></h2><p>Burnard, Lou. 2015. « La TEI et le XML ». In <em>Qu’est-ce que la Text Encoding Initiative ? Encyclopédie numérique.</em> OpenEdition Press. <a href="https://doi.org/10.4000/books.oep.1298">https://doi.org/10.4000/books.oep.1298</a>.</p>
+<p>Fauchié, Antoine. 2020. « Fabriques de publication : Pandoc ». quaternum.net, avril 30. <a href="https://www.quaternum.net/2020/04/30/fabriques-de-publication-pandoc/">https://www.quaternum.net/2020/04/30/fabriques-de-publication-pandoc/</a>.</p>
+<p>Karnaj, et ToxicScorpius. 2020. « Introduction à LaTeX ». Text. <em>Zeste de Savoir</em>, mars 13. <a href="https://zestedesavoir.com/tutoriels/826/introduction-a-latex/">https://zestedesavoir.com/tutoriels/826/introduction-a-latex/</a>.</p>
+<p>Perret, Arthur. 2021. « L’écriture académique au format texte ». septembre 21. <a href="https://www.arthurperret.fr/cours/2021-09-21-ecriture-academique-format-texte.html">https://www.arthurperret.fr/cours/2021-09-21-ecriture-academique-format-texte.html</a>.</p>
+<p>Tenen, Dennis, et Grant Wythoff. 2014. « Rédaction durable avec Pandoc et Markdown ». <em>Programming Historian</em>, mars 19. <a href="https://programminghistorian.org/fr/lecons/redaction-durable-avec-pandoc-et-markdown">https://programminghistorian.org/fr/lecons/redaction-durable-avec-pandoc-et-markdown</a>.</p>
 </div>
 </div>
 </div>
