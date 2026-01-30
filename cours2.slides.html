@@ -7685,6 +7685,99 @@ main {
 </div>
 </div>
 </div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13c22a5e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Exemple-d'usage----CTS-(Canonical-Text-Service)">Exemple d'usage -- CTS (<em>Canonical Text Service</em>)<a class="anchor-link" href="#Exemple-d'usage----CTS-(Canonical-Text-Service)">¶</a></h2><p>📜 protocole standard de citation des textes anciens</p>
+<p>📜 l'accès à ces extraits de textes se fait via un protocole standard (<code>API</code> -- <em>Application Programming Interface</em>) qui utilise des <code>requêtes HTTP</code> ("hacker" des url)</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b018c06">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="URI-vs.-URN-vs.-URL">URI vs. URN vs. URL<a class="anchor-link" href="#URI-vs.-URN-vs.-URL">¶</a></h2><p><code>URI</code> = <em>Uniform Ressource Indentifier</em></p>
+<p>Elle peut être :</p>
+<p>🪪 Une <code>URN</code> (<em>Uniform Ressource Name</em>)  = identification de la ressource indépendemment de son emplacement</p>
+<p><code>urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1-1.10</code></p>
+<p><code>greekLit</code> : namespace (littérature grecque)</p>
+<p><code>tlg0012</code> : textgroup (Homère)</p>
+<p><code>tlg001</code> : work (L'Iliade)</p>
+<p><code>perseus-grc2</code> : version (édition Perseus en grec)</p>
+<p><code>1.1-1.10</code> : passage (livre 1, vers 1 à 10)</p>
+<p>📍🗺️ Une <code>URL</code> (<em>Uniform Ressource Locator</em>) = le chemin vers cette ressource</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4d6b1a95">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L'API">L'API<a class="anchor-link" href="#L'API">¶</a></h2><p>🚚📦 une <code>API</code> dite <code>REST</code> repose sur le protocole HTTP</p>
+<p>🚚📦 on fait une <code>requête</code> (une commande) à un serveur</p>
+<p>📬 grâce à des structures d'URL standards, le serveur sait quelle "partie de texte" il doit livrer</p>
+<p><code>http://votre-serveur.com/api/cts?request=GetPassage&amp;urn=urn:cts:greekLit:tlg0059.tlg030.votre-edition:1.1</code></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=615b470f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 1 : explorer Scaife Viewer</p>
+<p>🏺 visiter <a href="https://scaife.perseus.org/library/">https://scaife.perseus.org/library/</a> et explorez le catalogue de textes.</p>
+<p>🏺 trouver l'<em>Iliade</em> d'Homère</p>
+<p>🏺 observer la structure d'URN</p>
+<p>🏺 combien de versions (éditions/traductions) différentes trouvez-vous ?</p>
+<p>🏺 aller sur la version grecque</p>
+<p>🏺 observer la structure d'URN</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2678246c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>✍️ exercice 2 : utiliser les URLs CTS-API de Scaife</p>
+<p>🏺 aller sur <a href="https://scaife.perseus.org/library/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1-1.10/cts-api-xml/">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1-1.10/cts-api-xml/</a></p>
+<p>🏺 hacker l'URL pour avoir uniquement les 5 premiers vers</p>
+<p>🏺 observer la structure du texte</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=88ae2ca1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="DONC">DONC<a class="anchor-link" href="#DONC">¶</a></h2><p>👍 on a des références stables : les URN ne changent jamais, tout le monde cite de la même façon (reproductibilité de la recherche)</p>
+<p>👍 interopérabilité : on peut créer des scripts qui marchent avec n'importe quelle bibliothèque CTS</p>
+<p>👍 granularité : on a un accès précis au niveau du vers, pas seulement du livre
+traitement automatique de ces larges corpus : par exemples pour comparer les différentes versions</p>
+<p>👍 accès : les corpus sont accessibles aux autres chercheurs</p>
+<p>La structure du texte, avec les parotocoles standards de citation et d'accès, transforment le texte. Ce n'est plus seulement un objet de lecture, mais des données exploitables scientifiquement.</p>
+</div>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c0a47bd8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8286,7 +8379,7 @@ XML ALTO (Analysed Layout and Text Object) - description de la mise en page et d
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>📝 Devoir pour la prochaine fois : faire ce <a href="https://www.markdowntutorial.com/fr/">tuto Markdown</a></p>
+<p>📝 Faire ce <a href="https://www.markdowntutorial.com/fr/">tuto Markdown</a></p>
 </div>
 </div>
 </div>
