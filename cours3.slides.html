@@ -7844,7 +7844,7 @@ main {
 <ul>
 <li>choisir une collection</li>
 <li>changer le verbe de <code>ListSets</code> pour <code>ListRecords</code></li>
-<li>ajouter le paramètre metadataPrefix=oai_dc</li>
+<li>ajouter le paramètre <code>metadataPrefix=oai_dc</code></li>
 <li>ajouter le paramètre set=<code>[identifiant de la collection, par exemple cs pour "Computer Science"]</code></li>
 </ul>
 <hr/>
@@ -8207,6 +8207,7 @@ Facile à écrire     |        Style CSS            |     Facile à traiter
 <p>🔧 <strong>travailler dans un dossier dédié</strong></p>
 <p><code>mkdir test-pandoc</code> (<em>make directory</em>)</p>
 <p><code>cd test-pandoc</code> (<em>change directory</em>)</p>
+<p><code>code -r .</code> (<em>ouvre ce dossier (.) dans vscode en <strong>r</strong>étutilisant la fenêtre</em>)s</p>
 </div>
 </div>
 </div>
@@ -8285,7 +8286,9 @@ author: Mon Nom
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>✍️ transformer en html : <code>pandoc -f markdown -t html mon-fichier.md -o mon-fichier.html</code></p>
+<p>✍️ transformer en html : <code>pandoc -f markdown -t html mon-fichier.md -o mon-fichier.html -s</code></p>
+<p>L'option <code>-s</code> pour <code>standalone</code> génère un fichier HTML complet avec <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, et intègre les métadonnées YAML comme le <code>&lt;title&gt;</code> et les balises <code>&lt;meta&gt;</code> correspondantes.
+Sans <code>--standalone</code>, Pandoc produit juste un fragment HTML et ignore le YAML.</p>
 <p>✍️ transformer en .docx : <code>pandoc -f markdown -t docx mon-fichier.md -o mon-fichier.docx</code></p>
 </div>
 </div>
