@@ -46,7 +46,7 @@ Rappel : citer avec markdown, bibtex et pandoc
 
 Burnard, Lou. 2015. « La TEI et le XML ». In *Qu’est-ce que la Text Encoding Initiative ? Encyclopédie numérique.* OpenEdition Press. [https://doi.org/10.4000/books.oep.1298](https://doi.org/10.4000/books.oep.1298).
 
-Beeton, Berry, and Walden 2018 Beeton, Barbara, Karl Berry, and David Walden. « TEX: A Branch in Desktop Publishing Evolution, Part 1. » *IEEE Annals of the History of Computing* vol. 40.3 (2018): 78–93.
+Beeton, Berry, et Walden. « TEX: A Branch in Desktop Publishing Evolution, Part 1. » *IEEE Annals of the History of Computing* vol. 40.3 (2018): 78–93.
 
 ### Minimal computing :
 
@@ -89,7 +89,7 @@ Benkeltoum, Nordine. 2011. « Introduction ». In *Gérer et comprendre l’op
 ### Consignes et critères : 
 
 - Vous rendrez ce travail dans le format libre et ouvert de votre choix (HTML, markdown, LaTeX)\
-- Si vous rencontrez la moindre difficulté vous pouvez m'écrire un mail : claragrometto@gmail.com\
+- Si vous rencontrez la moindre difficulté vous pouvez m'écrire un mail : gromettoclara@gmail.com\
 - Vous êtes notés sur le forme et le fond
 - à envoyer par mail pour le 15 mai 2026
 
